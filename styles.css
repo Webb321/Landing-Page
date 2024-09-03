@@ -1,0 +1,164 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 20px 200px 100px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.discription {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 10px;
+    color: rgb(202, 199, 199);
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 60px;
+}
+
+button {
+    display: flex;
+    max-width: 90px;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border: 1px white solid;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    row-gap: 30px;
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #6b6d6e;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px 100px;
+}
+
+.para {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: light;
+    font-size: 36px;
+    font-family: italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.four {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.bluecard {
+    row-gap: 10px;
+}
+
+.call {
+    font-size: 28px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.bluediscription {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 30px;
+    color: rgb(212, 209, 209);
+    font-size: 18px;
+}
